@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edukasi Keamanan Siber - BSSN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <canvas id="cyber-canvas"></canvas>
+    
+    <img src="logo-bssn.png" alt="Logo BSSN" class="logo">
+    
+    <h1 class="glitch" data-text="Edukasi Keamanan Siber">Edukasi Keamanan Siber</h1>
+    <p>Memahami fondasi keamanan siber dan peran Badan Siber dan Sandi Negara (BSSN) dalam menjaga keamanan nasional Indonesia.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#fondasi">Fondasi</a></li>
+      <li><a href="#bssn">BSSN</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#statistik">Statistik</a></li>
+      <li><a href="#faq">Tanya Jawab</a></li>
+    </ul>
+  </nav>
+
+  <section id="fondasi" class="alt">
+    <h2>Fondasi Keamanan Siber</h2>
+
+    <h3 style="text-align:center; color:#1d70b8;">Apa itu Keamanan Siber?</h3>
+    <p style="max-width:900px; margin:20px auto; text-align:center;">Keamanan siber adalah upaya melindungi sistem komputer, jaringan, dan data dari serangan digital. Sebelum melangkah lebih jauh, mari kita coba simulasi kecil.</p>
+
+    <div class="password-wrapper">
+      <h3 style="margin-bottom: 10px; justify-content: center;">🔐 Simulasi Kekuatan Password</h3>
+      <p style="font-size: 0.9rem; margin-bottom: 20px; color: #666;">Coba ketik sebuah password untuk melihat seberapa kuat pertahanannya terhadap serangan Brute Force.</p>
+      
+      <div class="password-tool">
+        <input type="text" id="passInput" placeholder="Ketik contoh password di sini..." autocomplete="off">
+        <div class="strength-bar" id="strengthBar"></div>
+        <div class="strength-text" id="strengthText">Menunggu input...</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3><span class="icon">🧾</span>Digital Footprint</h3>
+        <p>Digital footprint adalah jejak aktivitas seseorang di internet. Setiap unggahan, komentar, dan pencarian meninggalkan data yang dapat dianalisis.</p>
+      </div>
+      <div class="card">
+        <h3><span class="icon">📉</span>Dampak Digital Footprint</h3>
+        <p>Jejak digital dapat berdampak pada reputasi dan keamanan. Data yang tersebar luas dapat dimanfaatkan untuk profiling hingga kejahatan siber.</p>
+      </div>
+      <div class="card">
+        <h3><span class="icon">🔒</span>Privacy & Data Pribadi</h3>
+        <p>Data pribadi mencakup nama, alamat, NIK, dan nomor telepon. Perlindungan data penting untuk menjaga hak privasi individu dari penyalahgunaan.</p>
+      </div>
+    </div>
+
+    <h3 style="text-align:center; color:#1d70b8; margin-top:60px;">Ancaman Siber Umum</h3>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="icon">🎣</span>Phishing</h3>
+        <p>Upaya penipuan dengan menyamar sebagai pihak terpercaya untuk mencuri data sensitif seperti kata sandi dan informasi perbankan.</p>
+      </div>
+      <div class="card">
+        <h3><span class="icon">🦠</span>Malware</h3>
+        <p>Perangkat lunak berbahaya yang dirancang untuk merusak sistem, mencuri data, atau mengontrol perangkat korban tanpa izin.</p>
+      </div>
+      <div class="card">
+        <h3><span class="icon">💣</span>Ransomware</h3>
+        <p>Mengunci data korban dengan enkripsi dan meminta tebusan agar data dapat diakses kembali. Sering menargetkan institusi penting.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="bssn" class="alt2">
+    <h2>Peranan BSSN</h2>
+    <h3 style="text-align:center; color:#1d70b8;">Mengenal BSSN</h3>
+    <p style="max-width:900px; margin:20px auto; text-align:center;">Badan Siber dan Sandi Negara (BSSN) adalah lembaga pemerintah non-kementerian yang bertugas menjaga keamanan siber dan sandi nasional.</p>
+
+    <div class="grid-center">
+      <div class="card highlight">
+        <h3><span class="icon">🛡️</span>Fungsi BSSN</h3>
+        <p>BSSN merumuskan kebijakan teknis, standar, dan prosedur keamanan siber nasional serta melakukan koordinasi lintas sektor.</p>
+      </div>
+      <div class="card highlight">
+        <h3><span class="icon">📌</span>Tugas Utama</h3>
+        <p>Tugas BSSN meliputi deteksi dini ancaman siber, penanganan insiden siber, dan perlindungan infrastruktur informasi strategis.</p>
+      </div>
+      <div class="card highlight">
+        <h3><span class="icon">🌐</span>Keamanan Jaringan</h3>
+        <p>BSSN mengawasi dan memperkuat keamanan jaringan pemerintah dan nasional dari serangan siber skala besar.</p>
+      </div>
+      <div class="card highlight">
+        <h3><span class="icon">🎓</span>Edukasi Siber</h3>
+        <p>BSSN berperan aktif dalam meningkatkan kesadaran masyarakat melalui literasi dan edukasi keamanan siber.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline" class="alt">
+    <h2>Timeline Ancaman Siber</h2>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="icon">🕰️</span>Awal Internet</h3>
+        <p>Ancaman siber masih terbatas dan bersifat sederhana, seperti virus komputer yang menyebar melalui disket/media fisik.</p>
+      </div>
+      <div class="card">
+        <h3><span class="icon">📱</span>Era Media Sosial</h3>
+        <p>Munculnya media sosial meningkatkan risiko kebocoran data pribadi dan penyalahgunaan jejak digital (Social Engineering).</p>
+      </div>
+      <div class="card">
+        <h3><span class="icon">🤖</span>Era Digital Modern</h3>
+        <p>Serangan semakin kompleks, terorganisir (APT), dan menargetkan infrastruktur kritis serta cloud storage.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="statistik" class="alt2">
+    <h2>Statistik Kasus</h2>
+    <div class="grid">
+      <div class="card highlight">
+        <h3><span class="icon">📈</span>Tren Serangan</h3>
+        <p>Serangan siber di Indonesia terus meningkat setiap tahunnya, mencapai jutaan anomali trafik per hari.</p>
+      </div>
+      <div class="card highlight">
+        <h3><span class="icon">🎯</span>Sektor Terdampak</h3>
+        <p>Administrasi pemerintahan dan layanan publik sering menjadi target utama serangan defacement dan ransomware.</p>
+      </div>
+      <div class="card highlight">
+        <h3><span class="icon">⚡</span>Dampak Ekonomi</h3>
+        <p>Kerugian akibat kejahatan siber dapat mencapai triliunan rupiah akibat pencurian data dan gangguan operasional.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="alt">
+    <h2>Tanya Jawab Penting</h2>
+    <p style="max-width:900px; margin:20px auto; text-align:center;">Poin-poin kunci yang perlu diingat oleh setiap pengguna internet.</p>
+
+    <div class="grid-center">
+      
+      <div class="card">
+        <h3><span class="icon">⚠️</span>Ancaman Siber</h3>
+        <p><strong>Apa & Dampaknya?</strong><br>
+        Ancaman siber adalah upaya merusak atau mencuri data secara digital. Dampaknya bisa berupa kerugian finansial, pencurian identitas, hingga rusaknya reputasi.</p>
+      </div>
+
+      <div class="card">
+        <h3><span class="icon">👣</span>Jejak Digital</h3>
+        <p><strong>Mengapa dilindungi?</strong><br>
+        Jejak digital adalah sejarah aktivitasmu. Jika tidak dilindungi, data ini bisa dipakai penjahat untuk <em>profiling</em>, penipuan, atau pemerasan.</p>
+      </div>
+
+      <div class="card">
+        <h3><span class="icon">🇮🇩</span>Peran BSSN</h3>
+        <p><strong>Tugas Utamanya?</strong><br>
+        BSSN bertugas mendeteksi serangan, memulihkan sistem pemerintah yang terdampak, serta menjaga kedaulatan ruang siber nasional agar aman.</p>
+      </div>
+
+      <div class="card">
+        <h3><span class="icon">🎓</span>Langkah Pelajar</h3>
+        <p><strong>Apa yang bisa dilakukan?</strong><br>
+        1. Buat password unik & kuat.<br>
+        2. Aktifkan 2FA (Verifikasi 2 Langkah).<br>
+        3. Jangan klik link mencurigakan.<br>
+        4. Jaga etika di media sosial.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Website Edukasi Keamanan Siber © 2026 | Disusun untuk kunjungan ke <span>BSSN</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
